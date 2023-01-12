@@ -5,4 +5,5 @@
    If it is greater than 100 and less than 200, 5 dollars.
    If it is above 200, the fee is free."
   [purchase-amount]
-  15)
+  (if (<= purchase-amount 100)
+    15))
