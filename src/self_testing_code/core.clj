@@ -6,4 +6,6 @@
    If it is above 200, the fee is free."
   [purchase-amount]
   (if (<= purchase-amount 100)
-    15))
+    15
+    (if (<= purchase-amount 200)
+      5)))
