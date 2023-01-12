@@ -8,4 +8,5 @@
   (if (<= purchase-amount 100)
     15
     (if (<= purchase-amount 200)
-      5)))
+      5
+      0)))
