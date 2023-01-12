@@ -2,21 +2,11 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
-## Usage
+## description
 
-FIXME
 
-## License
+This is my first application with TDD after my studies in clojure. Despite being a very simple application, the concepts were all applied.
 
-Copyright © 2023 FIXME
+It follows the patterns of Red, Green and Refactor.
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+In my commits I left the step by step of how I was executing each part of the code.
