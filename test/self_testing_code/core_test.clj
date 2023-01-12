@@ -6,4 +6,6 @@
   (testing "If the value is less than 100, a delivery fee of 15 dollars will be charged"
     (is (= 15 (delivery-fee 1))))
   (testing "If the purchase amount is between 100.01 and 200, return 5 dollars"
-    (is (= 5 (delivery-fee 100.01)))))
+    (is (= 5 (delivery-fee 100.01))))
+  (testing "If the purchase amount is greater than 200, return 0 dollars of delivery fee"
+    (is (= 0 (delivery-fee 200.01)))))
